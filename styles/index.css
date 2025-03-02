@@ -1,0 +1,43 @@
+.monaco-grid-view>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(3)>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view {
+    --action-width: 28px;
+    --action-padding: 10px;
+    --action-real-width: calc(var(--action-width) + var(--action-padding) * 2);
+}
+
+.monaco-grid-view>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(3)>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:first-child {
+    width: var(--action-real-width) !important;
+}
+
+.monaco-grid-view>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(3)>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:first-child .activitybar {
+    width: 100% !important;
+    padding: 0 var(--action-padding);
+}
+
+.monaco-grid-view>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(3)>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:first-child .content {
+    width: 100% !important;
+}
+
+.monaco-grid-view>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(3)>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:first-child .action-item.icon {
+    margin-top: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.monaco-grid-view>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(3)>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:first-child .action-item.icon .active-item-indicator {
+    display: none;
+}
+
+.monaco-grid-view>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(3)>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:first-child .action-item.icon.checked {
+    background-color: rgba(170, 188, 242, 0.2);
+}
+
+.monaco-grid-view>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(3)>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:first-child .action-item.icon .action-label.codicon {
+    color: #ffffff;
+    width: var(--action-width) !important;
+    height: var(--action-width) !important;
+    font-size: 16px !important;
+}
+
+.monaco-grid-view>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(3)>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(2) {
+    left: var(--action-real-width) !important;
+}

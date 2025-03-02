@@ -1,0 +1,44 @@
+.monaco-grid-view>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(3)>.monaco-grid-branch-node>.monaco-split-view2>.monaco-scrollable-element>.split-view-container>.split-view-view {
+  --action-width: 28px;
+  --action-padding: 10px;
+  --action-real-width: calc(var(--action-width) + var(--action-padding) * 2);
+
+  &:first-child {
+    width: var(--action-real-width) !important;
+
+    .activitybar {
+      width: 100% !important;
+      padding: 0 var(--action-padding);
+    }
+
+    .content {
+      width: 100% !important;
+    }
+
+    .action-item.icon {
+      margin-top: 10px;
+      border-radius: 5px;
+      overflow: hidden;
+
+      .active-item-indicator {
+        display: none;
+      }
+
+      &.checked {
+        background-color: rgba(170, 188, 242, 0.2);
+      }
+
+      .action-label.codicon {
+        color: #ffffff;
+        width: var(--action-width) !important;
+        height: var(--action-width) !important;
+        font-size: 16px !important;
+      }
+    }
+
+  }
+
+  &:nth-child(2) {
+    left: var(--action-real-width) !important;
+  }
+}
